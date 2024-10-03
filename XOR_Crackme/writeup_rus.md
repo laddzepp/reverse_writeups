@@ -97,6 +97,7 @@ forkbomb или picoCTF, на мой лично взгляд предлагае�
 ![image](https://github.com/user-attachments/assets/02a8ea26-fb43-4a8a-810d-033cc44c9978) 
 
 Теперь выглядит немного получше
+\
 ![image](https://github.com/user-attachments/assets/7237b95a-449b-4e89-bc51-0b92dbb33d7a)
 
 
