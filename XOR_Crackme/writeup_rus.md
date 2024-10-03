@@ -25,7 +25,10 @@ forkbomb или picoCTF, на мой лично взгляд предлагае�
 ![image](https://github.com/user-attachments/assets/d218a879-0aaf-4b93-927d-f232de82785e)
 
 
-Нажимаем Ок.
+Нажимаем Ок. И как видим мы успешно пропатчили программу.
+
+![image](https://github.com/user-attachments/assets/dca3fa5b-972c-439b-9f8b-00aee0ff83f8)
+
 
 
 
