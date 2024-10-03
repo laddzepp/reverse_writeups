@@ -53,9 +53,6 @@ forkbomb или picoCTF, на мой лично взгляд предлагае�
 
 Как видим, мы действительно перешли на нужную нам ветку 
 
-![image](https://github.com/user-attachments/assets/e61c888f-c77c-4c26-8f44-c4dad51d8c07)
-
-
 ![image](https://github.com/user-attachments/assets/625c3516-c38e-40c3-8bc7-c7d502d3442a)
 
 
