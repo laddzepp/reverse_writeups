@@ -27,8 +27,8 @@ decompress.\
 ![image](https://github.com/user-attachments/assets/3eca55a3-35ee-4e7d-b6fb-4037e854348c)\
 Данная строка лежит в переменной var_80. Переименуем эту переменную в pswd.
 
-![image](https://github.com/user-attachments/assets/2791c314-c7bf-40cb-8758-5df58c44f26b)
-Далее видим две переменные var_98 и var_88, а также функцию `strncmp()`.\
+![image](https://github.com/user-attachments/assets/2791c314-c7bf-40cb-8758-5df58c44f26b)\
+Далее видим две переменные var_98 и var_88, а также функцию `strncmp()`.
 Данная функция сравнивает ascii-символы до n-го символа. Аргументы данной функции 
 передаются в регистры rcx и в rax, так как в rcx передается адрес пароля, то в rax var_88 это вводимый пароль пользователем, следовательно var_98 это n. 
 
