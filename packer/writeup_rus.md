@@ -16,7 +16,7 @@
 
 #### Шаг 2. Распаковываем бинарный файл.
 Увидим, что использовался популярный упаковщик UPX. Пройдем в директорию, где лежит упаковщик и передадим ему путь к файлу с аргументом -d, что означает 
-decompress. 
+decompress.\
 ![image](https://github.com/user-attachments/assets/4d221d06-9704-47fe-b309-3c7de7572acc)
 ![image](https://github.com/user-attachments/assets/f543bf95-1ccb-4868-830f-772936f2e78d)
 
