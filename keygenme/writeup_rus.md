@@ -34,3 +34,8 @@ print(part_of_flag)
 
 Заглянем в документацию по openssl и найдем описание функции MD5. 
 
+```c
+unsigned char *MD5(const unsigned char *d, unsigned long n,
+                 unsigned char *md);
+```
+
