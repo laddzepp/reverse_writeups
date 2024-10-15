@@ -46,6 +46,12 @@ unsigned char *MD5(const unsigned char *d, unsigned long n,
 ![image](https://github.com/user-attachments/assets/2882e03c-ada5-45be-9c02-c233bf1c64f3)
 
 Видим цикл. Он логика внутри него отработает 15 раз. Следовательно  `var_C4` можно переименовать в `n`, а `var_C8` в `i`.
+В блоке с логикой программы видим функцию `_sprintf`. Представим профиль данной функции ниже: 
+
+```c
+int sprintf(char *restrict str,
+                   const char *restrict format, ...);
+```
 
 
 
