@@ -38,4 +38,4 @@ print(part_of_flag)
 unsigned char *MD5(const unsigned char *d, unsigned long n,
                  unsigned char *md);
 ```
-
+Судя по описанию, функция принимает n байт, указатель на буфер d и указатель на буфер, где будет храниться md хэш.
