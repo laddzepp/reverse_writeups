@@ -26,3 +26,5 @@ part_of_flag = bytearray.fromhex(s)
 part_of_flag.reverse()
 print(part_of_flag)
 ```
+
+Увидим, следующую строчку `picoCTF{br1ng_y0ur_0wn_k3y_}`. Сразу же автор таска дает понять, что флаг неплоный, поэтому продолжаем анализировать алгоритм.
