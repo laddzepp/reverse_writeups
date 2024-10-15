@@ -42,3 +42,8 @@ unsigned char *MD5(const unsigned char *d, unsigned long n,
 ```
 Судя по описанию, функция принимает n байт, указатель на буфер d и указатель на буфер, где будет храниться md хэш.
 Идем дальше. Остальные сведения получим на стадии отладки программы.
+
+![image](https://github.com/user-attachments/assets/2882e03c-ada5-45be-9c02-c233bf1c64f3)
+
+
+
