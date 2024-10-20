@@ -73,4 +73,21 @@ int sprintf(char *restrict str,
 #### Примечание:
 Если программа не запускается, выдавая ошибку типа `./keygenme: error while loading shared libraries: libcrypto.so.1.1: cannot open shared object file: No such file or directory`, то необходимо скачать openssl версии 1.1. Собрать библеотеку можно из исходников.
 
+Решение: 
+```bash
+wget https://www.openssl.org/source/openssl-1.1.1o.tar.gz
+tar -zxvf openssl-1.1.1o.tar.gz
+cd openssl-1.1.1o
+./config
+make
+make test
+sudo make install
+find / -name libssl.so.1.1
+ln -s /usr/local/lib64/libssl.so.1.1  /usr/lib64/libssl.so.1.1
+ln -s /usr/local/lib64/libssl.so.1.1  /usr/lib/libssl.so.1.1
+find / -name libcrypto.so.1.1
+ln -s /home/ubuntu/openssl-1.1.1o/libcrypto.so.1.1    /usr/lib64/libcrypto.so.1.1
+ln -s /home/ubuntu/openssl-1.1.1o/libcrypto.so.1.1     /usr/lib/libcrypto.so.1.1
+```
+
 
