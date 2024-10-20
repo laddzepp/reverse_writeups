@@ -90,4 +90,8 @@ ln -s /home/ubuntu/openssl-1.1.1o/libcrypto.so.1.1    /usr/lib64/libcrypto.so.1.
 ln -s /home/ubuntu/openssl-1.1.1o/libcrypto.so.1.1     /usr/lib/libcrypto.so.1.1
 ```
 
+После нажатия клавиши F9 отладчик сразу перекинет нас на точку входа в программу.
+![image](https://github.com/user-attachments/assets/da94e831-69d0-4771-933f-5ece4c614c09)
+
+
 
