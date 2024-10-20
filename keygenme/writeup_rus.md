@@ -59,7 +59,7 @@ int sprintf(char *restrict str,
 ![image](https://github.com/user-attachments/assets/c35d6b86-7f3b-4d77-9f41-2a74920995ff)
 
 Ну и последняя часть алгоритма, заключается в копировании строки s в другой массив и записи по каким-то смещениям содержимого регистров и проверка на длину строки
-![image](https://github.com/user-attachments/assets/23f26ca7-bbe5-4242-b273-b34c2a6ff8dc) 
+![image](https://github.com/user-attachments/assets/23f26ca7-bbe5-4242-b273-b34c2a6ff8dc)\
 Здесь сравнивается возвращенное значение strlen и на этом основании выбирается следующий переход, который явялется проверкой. 
 ![image](https://github.com/user-attachments/assets/411c04d2-1f7c-444e-bc0f-293a2e790e28) 
 Ну и в зависимости от исхода, возвращается 1 или 0. 
