@@ -98,6 +98,9 @@ ln -s /home/ubuntu/openssl-1.1.1o/libcrypto.so.1.1     /usr/lib/libcrypto.so.1.1
 В данном случае я поставил точку останова на инструкциях `call _fgets` и `call sub_1209`.
 Ввводим строку, перепрыгиваем на следующую точку останова и нажатием клавиши F7 переходим в функцию sub_1209.
 Далее смотрим, как генерируется хэш MD5. 
+![image](https://github.com/user-attachments/assets/bb8ce126-12f2-424b-a188-fb53e38cf797)
+![image](https://github.com/user-attachments/assets/aacd1b27-15c2-4dc5-91e4-be7b10b2792c)
+
 
 
 
