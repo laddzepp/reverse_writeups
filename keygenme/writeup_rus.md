@@ -71,6 +71,6 @@ int sprintf(char *restrict str,
 
 Для этого воспользуемся отладчиком edb. Запустить программу можно командой `edb --run ./keygenme`. 
 #### Примечание:
-Если программа не запускается, выдавая ошибку типа `libcrypto-1.1 is missing`, то необходимо скачать openssl версии 1.1. Собрать библеотеку можно из исходников.
+Если программа не запускается, выдавая ошибку типа `./keygenme: error while loading shared libraries: libcrypto.so.1.1: cannot open shared object file: No such file or directory`, то необходимо скачать openssl версии 1.1. Собрать библеотеку можно из исходников.
 
 
