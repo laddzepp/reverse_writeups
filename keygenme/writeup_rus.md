@@ -63,8 +63,7 @@ int sprintf(char *restrict str,
 Здесь сравнивается возвращенное значение strlen и на этом основании выбирается следующий переход, который явялется проверкой.
 ![image](https://github.com/user-attachments/assets/411c04d2-1f7c-444e-bc0f-293a2e790e28)
 Ну и в зависимости от исхода, возвращается 1 или 0.
-![image](https://github.com/user-attachments/assets/ffc6e644-6d67-4571-bf46-540690ca853d)
-
+![image](https://github.com/user-attachments/assets/1063b4f4-e636-4be5-b30f-90fab5837fd0)
 
 
 
