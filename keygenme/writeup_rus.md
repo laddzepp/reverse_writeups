@@ -109,7 +109,7 @@ ln -s /home/ubuntu/openssl-1.1.1o/libcrypto.so.1.1     /usr/lib/libcrypto.so.1.1
 
 Сгенерированные MD5-хэши действительно записались в буферы, а также сгенерировался флаг, который будет сравниваться с нашим вводом.
 Попробуем ввести полученный флаг
-![image](https://github.com/user-attachments/assets/8dc87005-d38a-4526-93da-65ba22474ba1)
+![image](https://github.com/user-attachments/assets/8dc87005-d38a-4526-93da-65ba22474ba1) \
 И действительно, полученный флаг оказался верным
 
 
