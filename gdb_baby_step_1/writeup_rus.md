@@ -35,3 +35,6 @@ p/d $eax
 ![image](https://github.com/user-attachments/assets/ef2e402f-722a-48d4-b531-9d41d16d5996)
 
 
+Ответ: picoCTF{549698}
+
+
