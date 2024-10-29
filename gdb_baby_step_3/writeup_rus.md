@@ -21,4 +21,5 @@ r
 c
 x/4xb $rbp-0x4
 ```
-![image](https://github.com/user-attachments/assets/53c060b6-32ba-43f9-add8-612d78424a49)
+
+![image](https://github.com/user-attachments/assets/eeaa291c-5123-43c9-bf97-e0a35c1ab589)
