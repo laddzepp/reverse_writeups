@@ -25,4 +25,6 @@ p/d our_constant
 `si (Step instruction)` с помощью данной команды мы сможем перейти в функцию.
 ![image](https://github.com/user-attachments/assets/ca1b236d-bc90-431f-92c9-be0c44ddc664)
 
+Ответ: `picoCTF{12905}`
+
 
