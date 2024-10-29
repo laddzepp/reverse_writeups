@@ -23,3 +23,4 @@ x/4xb $rbp-0x4
 ```
 
 
+![image](https://github.com/user-attachments/assets/53c060b6-32ba-43f9-add8-612d78424a49)
