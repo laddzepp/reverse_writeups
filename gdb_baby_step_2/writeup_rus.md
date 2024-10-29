@@ -12,4 +12,3 @@
 Проведем статический анализ скачанного бинарного файла. 
 
 ![image](https://github.com/user-attachments/assets/0c09b5fe-fd22-47d5-9643-6cc9e11ac288)
-![Uploading image.png…]()
