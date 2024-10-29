@@ -19,7 +19,7 @@ b main
 b *0x000000000040111f
 r
 c
-x/x4b $rbp-0x4
+x/4xb $rbp-0x4
 ```
 
 
