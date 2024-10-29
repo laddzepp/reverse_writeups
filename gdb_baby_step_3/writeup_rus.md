@@ -28,4 +28,6 @@ x/4xb $rbp-0x4
 наше выражение `$rbp-0x4`. 
 ![image](https://github.com/user-attachments/assets/eeaa291c-5123-43c9-bf97-e0a35c1ab589)
 
-Число хранится в перевернутом формате, так как работает механизм `little endian`.
+Число хранится в перевернутом формате, так как работает механизм little endian.
+
+Ответ: `picoCTF{0x6bc96222}`
