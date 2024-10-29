@@ -12,5 +12,6 @@
 ```
 ![image](https://github.com/user-attachments/assets/a87a36ad-71a9-41fd-8a48-b1648b061fff)
 
+Число `0x2262c96b` хранится по смещению `rbp-0x4`.
 
 
