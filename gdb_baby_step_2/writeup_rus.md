@@ -34,7 +34,7 @@ b *0x0000000000401141
 c
 p/d $eax
 ```
-Результат:
+Результат: <br />
 ![image](https://github.com/user-attachments/assets/24d17707-fafc-4196-a818-d1ebb90df220)
 
 
