@@ -37,5 +37,7 @@ p/d $eax
 Результат: <br />
 ![image](https://github.com/user-attachments/assets/24d17707-fafc-4196-a818-d1ebb90df220)
 
+Ответ: `picoCTF{307019}`
+
 
 
