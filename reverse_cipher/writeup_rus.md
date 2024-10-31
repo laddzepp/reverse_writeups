@@ -32,6 +32,6 @@ FILE *fopen(const char *restrict pathname, const char *restrict mode);
 В случае, если файлы открыть не удалось `_fopen` в обоих случаях вернет `NULL`. В таком случае, отработают следующие ветки программы:
 ![image](https://github.com/user-attachments/assets/a71776bf-f660-456c-b894-1dbc36523cbc)
 
-Указатель, который вернется после открытия файла `flag.txt` хранится по смещению `[rbp+stream]` или `[rbp-0x18]`. Переименуем его в `[rbp+flag_file_ptr]`.
+Указатель, который вернется после открытия файла `flag.txt` хранится по смещению `[rbp+stream]` или `[rbp-0x18]`. Переименуем его в `[rbp+flag_file_ptr]`, а `[rbp+var_20]` в `[rbp+rev_file_ptr]` для того, чтобы нам было удобнее их различать в будущем.
 
 
