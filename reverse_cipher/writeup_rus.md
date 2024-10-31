@@ -35,7 +35,7 @@ FILE *fopen(const char *restrict pathname, const char *restrict mode);
 Указатель, который вернется после открытия файла `flag.txt` хранится по смещению `[rbp+stream]` или `[rbp-0x18]`. Переименуем его в `[rbp+flag_file_ptr]`, а `[rbp+var_20]` в `[rbp+rev_file_ptr]` для того, чтобы нам было удобнее их различать в будущем. 
 
 Перейдем к следующему блоку программы, который отвечает за считывание данных из файла `flag.txt`. 
-![image](https://github.com/user-attachments/assets/fadc80ad-bbcd-4b83-9ac0-844a6ac82233)
+![image](https://github.com/user-attachments/assets/fadc80ad-bbcd-4b83-9ac0-844a6ac82233) <br />
 Осуществляется считывание с помощью функции `_fread` профиль которой выглядит вот таким образом:
 ```c
 size_t fread(void ptr[restrict .size * .nmemb],
