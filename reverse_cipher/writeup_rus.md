@@ -36,6 +36,12 @@ FILE *fopen(const char *restrict pathname, const char *restrict mode);
 
 Перейдем к следующему блоку программы, который отвечает за считывание данных из файла `flag.txt`. 
 ![image](https://github.com/user-attachments/assets/fadc80ad-bbcd-4b83-9ac0-844a6ac82233)
+Осуществляется считывание с помощью функции `_fread` профиль которой выглядит вот таким образом:
+```c
+size_t fread(void ptr[restrict .size * .nmemb],
+                    size_t size, size_t nmemb,
+                    FILE *restrict stream);
+```
 
 
 
