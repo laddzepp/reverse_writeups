@@ -46,7 +46,7 @@ size_t fread(void ptr[restrict .size * .nmemb],
 В зависимости от результата работы функции, перейдем в одну из двух веток. На выход с кодом 0: 
 ![image](https://github.com/user-attachments/assets/9c049ecd-c6c6-4cb1-9481-ae07cf96fecf)
 
-Или в цикл, который запишет первые восемь символов из файла `flag.txt`.
+Или в цикл, который запишет первые восемь символов из файла `flag.txt` в файл `rev_this`.
 ![image](https://github.com/user-attachments/assets/f66e308b-be0e-47af-a2a6-473c696c5aea)
 
 
