@@ -42,6 +42,8 @@ size_t fread(void ptr[restrict .size * .nmemb],
                     size_t size, size_t nmemb,
                     FILE *restrict stream);
 ```
+`ptr` - указатель на буфер, куда будут записываться данные из потока, `size` - сколько данных считаем, `nmemb` - сколько весит каждый символ и последний `stream` - поток, то есть наш файл из которого будем считывать.
+
 
 
 
