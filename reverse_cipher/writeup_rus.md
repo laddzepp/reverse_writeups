@@ -61,7 +61,7 @@ int fputc(int c, FILE *stream);
 В регистр `eax` кладется длина строки. Длина проверяется на чётность с помощью побитовой операции AND. А команда `test` будет влиять на флаг `ZF` и переводить в зависимости 
 от его значения в определенную ветку. Если длина строки четная, все биты при команде `test` сбросились и флаг `ZF` установился в значение 1, то к ascii-коду прибавляем 5: <br />
 ![image](https://github.com/user-attachments/assets/dd6cf434-c9ed-4418-a66b-074fc7349692) <br />
-Иначе отбираем 2:
+Иначе отбираем 2: <br />
 ![image](https://github.com/user-attachments/assets/9d9eca1f-859a-4f4f-acd2-3a99ec187db4) <br />
 И результат будет записываться в файл `rev_this`: <br />
 ![image](https://github.com/user-attachments/assets/4f2bffa5-cc4a-413f-a485-1a82b961c4ed) <br />
