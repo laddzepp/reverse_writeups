@@ -34,7 +34,7 @@ FILE *fopen(const char *restrict pathname, const char *restrict mode);
 
 Указатель, который вернется после открытия файла `flag.txt` хранится по смещению `[rbp+stream]` или `[rbp-0x18]`. Переименуем его в `[rbp+flag_file_ptr]`, а `[rbp+var_20]` в `[rbp+rev_file_ptr]` для того, чтобы нам было удобнее их различать в будущем. 
 
-Перейдем к следующему блоку программы, который отвечает за считывание данных из файла `flag.txt`. 
+Перейдем к следующему блоку программы, который отвечает за считывание данных из файла `flag.txt`. <br />
 ![image](https://github.com/user-attachments/assets/fadc80ad-bbcd-4b83-9ac0-844a6ac82233) <br />
 Осуществляется считывание с помощью функции `_fread` профиль которой выглядит вот таким образом:
 ```c
@@ -46,7 +46,7 @@ size_t fread(void ptr[restrict .size * .nmemb],
 В зависимости от результата работы функции, перейдем в одну из двух веток. На выход с кодом 0: <br />
 ![image](https://github.com/user-attachments/assets/9c049ecd-c6c6-4cb1-9481-ae07cf96fecf)
 
-Или в цикл, который запишет первые восемь символов из файла `flag.txt` в файл `rev_this`.
+Или в цикл, который запишет первые восемь символов из файла `flag.txt` в файл `rev_this`. 
 ![image](https://github.com/user-attachments/assets/f66e308b-be0e-47af-a2a6-473c696c5aea)
 
 Профиль функции `fputc` выглядит следующим образом. 
