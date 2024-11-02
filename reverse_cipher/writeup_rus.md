@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f14e0d27-07a7-4a25-a411-5c3810106ab7)
+
 # Сайт: PicoCTF
 # Задание: reverse_cipher
 # Автор: Danny Tunitis 
