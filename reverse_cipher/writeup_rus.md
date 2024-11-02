@@ -75,7 +75,17 @@ int fputc(int c, FILE *stream);
 
 Решение произведем с помощью языка программирования Python.
 
-
+```py
+str = "picoCTF{w1{1wq84fb<1>49}"
+flag = "picoCTF{"
+for i in range(8, len(str)): 
+    if ( i % 2 == 0):
+        flag+=chr(ord(str[i]) - 5)
+    else: 
+        flag+=chr(ord(str[i])+2)
+flag+="}"
+print(flag)
+```
 
 
 
