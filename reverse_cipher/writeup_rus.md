@@ -58,7 +58,7 @@ int fputc(int c, FILE *stream);
 ![image](https://github.com/user-attachments/assets/9926a0d5-6934-4179-aca2-d851e5189938) <br />
 Здесь инициализируется новый цикл, который отработает с 8 по 22 символ, внтури него тоже есть некоторая логика: <br />
 ![image](https://github.com/user-attachments/assets/42c37cd9-2259-41d9-a7ac-4425fdfb9fb1) <br />
-Над каждым ascii-кодом будет выполняться побитовое И и если в результате получается 0, то выполнится эта ветка: <br />
+Над каждым ascii-кодом будет выполняться побитовое И с длиной строки и если в результате получается 0, то выполнится эта ветка: <br />
 ![image](https://github.com/user-attachments/assets/dd6cf434-c9ed-4418-a66b-074fc7349692) <br />
 То есть к ascii-коду прибавляем 5, иначе отнимаем 2: <br />
 ![image](https://github.com/user-attachments/assets/9d9eca1f-859a-4f4f-acd2-3a99ec187db4) <br />
