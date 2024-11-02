@@ -54,7 +54,7 @@ size_t fread(void ptr[restrict .size * .nmemb],
 int fputc(int c, FILE *stream);
 ```
 Данная функция записывает символ в некоторый поток, который является нашим файлом. `[rbp+var_1]` - это символ, который будем записывать в файл. Переименуем его в `sym` и перейдем 
-к следующем блоку: 
+к следующем блоку: <br />
 ![image](https://github.com/user-attachments/assets/9926a0d5-6934-4179-aca2-d851e5189938) <br />
 Здесь инициализируется новый цикл, который отработает с 8 по 22 символ, внтури него тоже есть некоторая логика: 
 ![image](https://github.com/user-attachments/assets/42c37cd9-2259-41d9-a7ac-4425fdfb9fb1) <br />
