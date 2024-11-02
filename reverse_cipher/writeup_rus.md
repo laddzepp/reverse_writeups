@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/f14e0d27-07a7-4a25-a411-5c3810106ab7)
 # Сайт: PicoCTF
 # Задание: reverse_cipher
 # Автор: Danny Tunitis 
@@ -56,13 +56,13 @@ int fputc(int c, FILE *stream);
 Данная функция записывает символ в некоторый поток, который является нашим файлом. `[rbp+var_1]` - это символ, который будем записывать в файл. Переименуем его в `sym` и перейдем 
 к следующем блоку: <br />
 ![image](https://github.com/user-attachments/assets/9926a0d5-6934-4179-aca2-d851e5189938) <br />
-Здесь инициализируется новый цикл, который отработает с 8 по 22 символ, внтури него тоже есть некоторая логика: 
+Здесь инициализируется новый цикл, который отработает с 8 по 22 символ, внтури него тоже есть некоторая логика: <br />
 ![image](https://github.com/user-attachments/assets/42c37cd9-2259-41d9-a7ac-4425fdfb9fb1) <br />
-Над каждым ascii-кодом будет выполняться побитовое И и если в результате получается 0, то выполнится эта ветка: 
+Над каждым ascii-кодом будет выполняться побитовое И и если в результате получается 0, то выполнится эта ветка: <br />
 ![image](https://github.com/user-attachments/assets/dd6cf434-c9ed-4418-a66b-074fc7349692) <br />
-То есть от ascii-кода отнимется 5, иначе 2: 
+То есть от ascii-кода отнимется 5, иначе 2: <br />
 ![image](https://github.com/user-attachments/assets/9d9eca1f-859a-4f4f-acd2-3a99ec187db4) <br />
-И результат будет записываться в файл `rev_this`: 
+И результат будет записываться в файл `rev_this`: <br />
 ![image](https://github.com/user-attachments/assets/4f2bffa5-cc4a-413f-a485-1a82b961c4ed) <br />
 
 
