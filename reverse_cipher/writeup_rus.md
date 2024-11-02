@@ -65,6 +65,10 @@ int fputc(int c, FILE *stream);
 И результат будет записываться в файл `rev_this`: <br />
 ![image](https://github.com/user-attachments/assets/4f2bffa5-cc4a-413f-a485-1a82b961c4ed) <br />
 
+На последок, мы закрываем все потоки и выходим из программы: <br >
+![image](https://github.com/user-attachments/assets/cea0306b-3a4a-4de8-9bc9-a806203f7e8f) <br />
+
+
 
 
 
