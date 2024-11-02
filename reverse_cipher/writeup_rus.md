@@ -60,7 +60,7 @@ int fputc(int c, FILE *stream);
 ![image](https://github.com/user-attachments/assets/42c37cd9-2259-41d9-a7ac-4425fdfb9fb1) <br />
 Над каждым ascii-кодом будет выполняться побитовое И и если в результате получается 0, то выполнится эта ветка: <br />
 ![image](https://github.com/user-attachments/assets/dd6cf434-c9ed-4418-a66b-074fc7349692) <br />
-То есть от ascii-кода отнимется 5, иначе 2: <br />
+То есть к ascii-коду прибавляем 5, иначе отнимаем 2: <br />
 ![image](https://github.com/user-attachments/assets/9d9eca1f-859a-4f4f-acd2-3a99ec187db4) <br />
 И результат будет записываться в файл `rev_this`: <br />
 ![image](https://github.com/user-attachments/assets/4f2bffa5-cc4a-413f-a485-1a82b961c4ed) <br />
@@ -71,6 +71,8 @@ int fputc(int c, FILE *stream);
 На этом статический анализ заканчивается и мы приступаем к решению.
 
 #### Решение.
+
+Решение произведем с помощью языка программирования Python.
 
 
 
