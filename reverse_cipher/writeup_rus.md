@@ -86,6 +86,7 @@ for i in range(8, len(str)):
 flag+="}"
 print(flag)
 ```
+Результат поолучился для моего файла такой: `picoCTF{r3v3rs36ad73964}`
 
 
 
