@@ -13,3 +13,7 @@
 
 Откроем файл в `IDA` и проанализируем алгоритм. <br />
 ![image](https://github.com/user-attachments/assets/638c6191-5ec1-48f1-958f-b61b45baf75b)
+
+Сразу же видим, что в регистр `rax` кладется что-то похожее на строку в hex. Учитывая, что в x64 все строки представлятся в формате little-endian 
+забросим в конвертор данное число, но в перевернутом виде. <br />
+![image](https://github.com/user-attachments/assets/93df51e8-043a-4cd5-9a3a-808d660f40ac)
