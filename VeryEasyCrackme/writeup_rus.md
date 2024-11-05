@@ -51,4 +51,4 @@ size_t strcspn( const char *dest, const char *src );
 Соответственно просто вводим строку, которую нашли в начале, это и есть наш пароль: <br />
 ![image](https://github.com/user-attachments/assets/e0fc98ea-e7b7-4e8e-897b-fa4f1e0c112f)
 
-
+Пароль оказался корректным, а значит статический анализ был проведен верно.
