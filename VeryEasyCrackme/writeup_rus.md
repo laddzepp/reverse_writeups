@@ -38,3 +38,17 @@
 ```c
 size_t strcspn( const char *dest, const char *src );
 ```
+
+Переходим ко второй части программы. Здесь также начинается цикл, который перебирает 8 символов строки, введенной пользователем и производит `xor` над этими символами. 
+
+![image](https://github.com/user-attachments/assets/53d58507-3856-4f01-a7d1-3b5a84689838)
+
+Далее два буфера в которых хранятся пароли сравниваются с помощью функции `memcmp` и если нам возвращается положительное число переходим в ветку с сообщением, что праоль верный. <br />
+![image](https://github.com/user-attachments/assets/acc043db-b87c-408c-b089-bb2272eabfb5) <br />
+![image](https://github.com/user-attachments/assets/99d56347-aaa7-4edf-b889-7985b473fd78) <br /> 
+
+
+Соответственно просто вводим строку, которую нашли в начале, это и есть наш пароль: <br />
+![image](https://github.com/user-attachments/assets/e0fc98ea-e7b7-4e8e-897b-fa4f1e0c112f)
+
+
