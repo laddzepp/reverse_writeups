@@ -77,7 +77,7 @@
 
 ![image](https://github.com/user-attachments/assets/ee9f7a4a-ed97-497b-9c27-73956fed80c4)
 
-Чтобы разобраться, что означает данная переменнная пройдем в стэк и увидим, что это наш массив Buf2, который просто напросто развалился. 
+Чтобы разобраться, что означает данная переменнная пройдем в стек и увидим, что это наш массив Buf2, который просто напросто развалился. 
 
 ![image](https://github.com/user-attachments/assets/9b2af712-30ea-40ae-b3f1-a2a183015ff4)
 
@@ -86,7 +86,7 @@
 
 ![image](https://github.com/user-attachments/assets/6c7f318c-c5f0-4c8d-a745-7a26b82b2589)
 
-Подредактируем переменную var_80. Для этого идем в стэк и указываем размер 11.
+Подредактируем переменную var_80. Для этого идем в стек и указываем размер 11.
 
 ![image](https://github.com/user-attachments/assets/9b186700-827c-4a31-aa49-28828ad5878f)
 ![image](https://github.com/user-attachments/assets/02a8ea26-fb43-4a8a-810d-033cc44c9978) 
